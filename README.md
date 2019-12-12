@@ -25,7 +25,7 @@ This script assumes you have embedded the ERS Credentials within.  This is not p
 
 # Usage
 
-`ise.py [ISE IPv4 Mgmt Addr] [Colon delimited Endpoint MAC Address] ["Clear" | ISE ANC Policy Name]`
+`ise.py [ISE IPv4 Primary Admin Mgmt Addr] [Colon delimited Endpoint MAC Address] ["Clear" | ISE ANC Policy Name]`
 
 Eg, To add endpoint with MAC Address 0000.0000.0000 to the Blacklist ANC Group...
 `ise.py 10.10.10.10 00:00:00:00:00:00 Blacklist`
